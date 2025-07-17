@@ -11,7 +11,7 @@ st.set_page_config(page_title="Language Detection App", page_icon="🌐", layout
 def load_model(path):
     return joblib.load(path)
 
-model = load_model('models/svm_model.pkl')
+#model = load_model('models/svm_model.pkl')
 
 # --- Hàm tạo biểu đồ Top 5
 def create_top5_chart(classes, proba):
